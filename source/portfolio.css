@@ -1,0 +1,147 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+:root {
+  --primary-color: #f9f7fe;
+  --secondary-color: #6c63ff;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: var(--default-font-family);
+}
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+h3 {
+  line-height: 1.5;
+}
+h6 {
+  line-height: 30px;
+  margin: 40px 0;
+}
+p {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.7;
+  line-height: 30px;
+  margin: 40px 0;
+}
+footer {
+  text-align: center;
+  margin-bottom: 60px;
+}
+i {
+  font-size: 40px;
+  color: var(--secondary-color);
+  margin: 10px;
+}
+i:hover {
+  transition: all 200ms ease-in-out;
+  color: #5c55e0;
+}
+li {
+  list-style: none;
+}
+.hero {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+.btn-branding {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-projects {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-description {
+  margin: 100px 60px;
+}
+
+.about-me-hero {
+  padding: 160px 10px;
+}
+.about-me-description {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.contact-box {
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 40px;
+  margin: 30px 60px;
+  border-radius: 15px;
+}
+.active {
+  color: var(--secondary-color) !important;
+}
+.mail-link {
+  display: block;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+.mail-link:hover {
+  color: var(--secondary-color);
+}
+.certificate {
+  background-color: #f9f7fe;
+  padding: 20px 20px;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 1;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+  .about-me-hero {
+    padding: 10px;
+    margin-top: 80px;
+    text-align: center;
+  }
+  .contact-box {
+    margin: 20px;
+  }
+}
