@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/chinmay_portflio/static/css/main.31c184c2.css",
-    "main.js": "/chinmay_portflio/static/js/main.9afe5ade.js",
-    "static/media/bannerImg.png": "/chinmay_portflio/static/media/bannerImg.a4e5ca246f3a79b2db64.png",
-    "static/media/p1.png": "/chinmay_portflio/static/media/p1.63873df4221d6a907b0e.png",
-    "static/media/p2.png": "/chinmay_portflio/static/media/p2.52b16af85faf5c2fa4f5.png",
-    "static/media/e1.png": "/chinmay_portflio/static/media/e1.5a40f5449357647f2537.png",
-    "static/media/e2.png": "/chinmay_portflio/static/media/e2.560c6cf01cfc0c28a86c.png",
-    "static/media/p5.png": "/chinmay_portflio/static/media/p5.522a88f7ae44402ef181.png",
-    "static/media/p4.png": "/chinmay_portflio/static/media/p4.1cb61a230360d848b55c.png",
-    "static/media/p3.png": "/chinmay_portflio/static/media/p3.ca4b8ca59bd6fc085064.png",
-    "static/media/contactImg.png": "/chinmay_portflio/static/media/contactImg.8ddfbfd11798f881db54.png",
-    "static/media/p6.png": "/chinmay_portflio/static/media/p6.adb936a89dcbc9eb618c.png",
-    "static/media/j1.png": "/chinmay_portflio/static/media/j1.e5da16d17da93a7abfbf.png",
-    "static/media/testimonialOne.png": "/chinmay_portflio/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
-    "static/media/testimonialTwo.png": "/chinmay_portflio/static/media/testimonialTwo.c6df2773c486964035d9.png",
-    "static/media/j3.png": "/chinmay_portflio/static/media/j3.cd6406267581c8b523d9.png",
-    "index.html": "/chinmay_portflio/index.html",
-    "main.31c184c2.css.map": "/chinmay_portflio/static/css/main.31c184c2.css.map",
-    "main.9afe5ade.js.map": "/chinmay_portflio/static/js/main.9afe5ade.js.map"
+    "main.css": "/chinmay_portfolio/static/css/main.31c184c2.css",
+    "main.js": "/chinmay_portfolio/static/js/main.897feafc.js",
+    "static/media/bannerImg.png": "/chinmay_portfolio/static/media/bannerImg.a4e5ca246f3a79b2db64.png",
+    "static/media/p1.png": "/chinmay_portfolio/static/media/p1.63873df4221d6a907b0e.png",
+    "static/media/p2.png": "/chinmay_portfolio/static/media/p2.52b16af85faf5c2fa4f5.png",
+    "static/media/e1.png": "/chinmay_portfolio/static/media/e1.5a40f5449357647f2537.png",
+    "static/media/e2.png": "/chinmay_portfolio/static/media/e2.560c6cf01cfc0c28a86c.png",
+    "static/media/p5.png": "/chinmay_portfolio/static/media/p5.522a88f7ae44402ef181.png",
+    "static/media/p4.png": "/chinmay_portfolio/static/media/p4.1cb61a230360d848b55c.png",
+    "static/media/p3.png": "/chinmay_portfolio/static/media/p3.ca4b8ca59bd6fc085064.png",
+    "static/media/contactImg.png": "/chinmay_portfolio/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/p6.png": "/chinmay_portfolio/static/media/p6.adb936a89dcbc9eb618c.png",
+    "static/media/j1.png": "/chinmay_portfolio/static/media/j1.e5da16d17da93a7abfbf.png",
+    "static/media/testimonialOne.png": "/chinmay_portfolio/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
+    "static/media/testimonialTwo.png": "/chinmay_portfolio/static/media/testimonialTwo.c6df2773c486964035d9.png",
+    "static/media/j3.png": "/chinmay_portfolio/static/media/j3.cd6406267581c8b523d9.png",
+    "index.html": "/chinmay_portfolio/index.html",
+    "main.31c184c2.css.map": "/chinmay_portfolio/static/css/main.31c184c2.css.map",
+    "main.897feafc.js.map": "/chinmay_portfolio/static/js/main.897feafc.js.map"
   },
   "entrypoints": [
     "static/css/main.31c184c2.css",
-    "static/js/main.9afe5ade.js"
+    "static/js/main.897feafc.js"
   ]
 }
