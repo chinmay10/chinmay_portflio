@@ -1,11 +1,11 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import ResumeCard from './ResumeCard';
+import ResumeCard from "../common/ResumeCard";
 import { e1,e2} from "../../assets/index";
 
 const Education = () => {
   return (
-    <section id="education" className="w-full py-20 border-b-[1px] border-b-black">
+    <section id="education" className="w-full h-auto py-20 border-b-[1px] border-b-black">
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}

@@ -1,21 +1,22 @@
 import React from "react";
 import {motion} from "framer-motion"
-import ResumeCard from "./ResumeCard";
+import ResumeCard from "../common/ResumeCard";
 import { j1,j2,j3 } from "../../assets/index";
 
 const Experience = () => {
   return (
-    <section id="experience" className="w-full py-20 border-b-[1px] border-b-black">
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
-    >
-      <div>
+    <section id="experience" className="w-full h-auto py-20 my-20 border-b-[1px] border-b-black">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, transition: { duration: 0.5 } }}
+        className="py-12 h-auto font-titleFont flex flex-col sm:flex-row gap-4 sm:gap-20"
+      >
+
+      <div className="h-auto"> 
         <div className="flex flex-col gap-4">
           <h2 className="text-4xl font-bold">Work Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Apple"
             subTitle="Software Engineer Intern | May 2023 - Jan 2024"

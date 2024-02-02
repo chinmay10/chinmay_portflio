@@ -20,7 +20,7 @@ const Projects = () => {
           title="Meme Recommender"
           des="Developed a meme recommender Django based web-app using BERT that recommends new memes dynamically based on user interaction. Improved app performance by using DynamoDB database and Redis Caching to quickly generate real time feed for seamless user experience."
           src={p1}
-          link="https://github.com/sidbav/public-health-app-v2"
+          link="https://github.com/chinmay10/Meme-Recommender"
         />
         <ProjectsCard
           title="Texas A&M Health Connect App"

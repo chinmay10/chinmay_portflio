@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./components/banner/Banner";
-import Contact from "./components/contact/Contact";
+import ContactLeft from "./components/contact/Contact";
 import FooterBottom from "./components/footer/FooterBottom";
 import Education from './components/education/Education';
 import Navbar from "./components/navbar/Navbar";
@@ -12,13 +12,13 @@ function App() {
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText px-4">
         <Navbar />
-      <div className="max-w-screen-xl mx-auto">
+      <div className="max-w-screen-xl mx-auto h-auto">
         <Banner />
         <Experience />
         <Education />
         <Projects />
         <Skills />
-        <Contact />
+        <ContactLeft />
         <FooterBottom />
       </div>
     </div>
