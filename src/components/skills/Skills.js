@@ -51,49 +51,60 @@ const Skills = () => {
   const [activeTab, setActiveTab] = useState('programmingLanguages');
 
   const containerStyle = {
-    fontFamily: 'Arial, sans-serif',
     color: '#ffffff',
     backgroundColor: '#1a1a1a',
     padding: '20px',
     borderRadius: '8px',
     border: '1px solid #000',
+    maxWidth: '100%', // Ensure the container does not overflow the viewport width
+    boxSizing: 'border-box', // Include padding and border in the element's total width and height
   };
-
+  
   const tabsStyle = {
     display: 'flex',
-    gap: '20px',
+    flexWrap: 'wrap', // Allow tabs to wrap on smaller screens
+    gap: '10px', // Reduce gap on smaller screens for better spacing
     marginBottom: '20px',
+    justifyContent: 'center', // Center tabs for better alignment and accessibility
   };
-
+  
   const tabStyle = {
     padding: '10px',
     cursor: 'pointer',
     color: '#ff4757',
-    fontSize: '20px',
+    fontSize: '16px', // Slightly reduce font size for better fit on small screens
     fontWeight: 'bold',
     borderBottom: '3px solid transparent',
+    textAlign: 'center', // Ensure text is centered, especially for wrapped tabs
+    minWidth: '100px', // Ensure a minimum width for tabs for touch targets
+    boxSizing: 'border-box', // Include padding and border in the element's total width and height
   };
-
+  
   const activeTabStyle = {
     ...tabStyle,
     color: '#ffffff',
     borderBottom: '3px solid #ff4757',
   };
+  
 
   const skillsRowStyle = {
     display: 'flex',
-    flexDirection: 'row', // Align skill items in a row
-    justifyContent: 'space-around', // Distribute space around items evenly
-    flexWrap: 'wrap', // Wrap items to the next line if not enough space
-    width: '100%', // Use the full width
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    gap: '17px',
+    padding: '0 10px',
   };
-  
+
   const skillItemStyle = {
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'center',
-    gap: '20px',
-    fontSize: '20px',
+    alignItems: 'start',
+    gap: '10px', // Gap between the icon and the name
+    fontSize: '17px',
+    minWidth: '1', // Ensure each item has a minimum width for consistency
+    maxWidth: '100px', // Ensure items can grow to fill the row but respect the min and max limits
+    flex: '1 1 auto', // Allow items to grow and shrink but not beyond their content size
   };
   
   const renderSkills = (skills) => {
