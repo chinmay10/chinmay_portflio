@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chinmay_portfolio/static/css/main.31c184c2.css",
-    "main.js": "/chinmay_portfolio/static/js/main.897feafc.js",
+    "main.css": "/chinmay_portfolio/static/css/main.9807cfc7.css",
+    "main.js": "/chinmay_portfolio/static/js/main.d3b7c87e.js",
     "static/media/bannerImg.png": "/chinmay_portfolio/static/media/bannerImg.a4e5ca246f3a79b2db64.png",
     "static/media/p1.png": "/chinmay_portfolio/static/media/p1.63873df4221d6a907b0e.png",
     "static/media/p2.png": "/chinmay_portfolio/static/media/p2.52b16af85faf5c2fa4f5.png",
@@ -17,11 +17,11 @@
     "static/media/testimonialTwo.png": "/chinmay_portfolio/static/media/testimonialTwo.c6df2773c486964035d9.png",
     "static/media/j3.png": "/chinmay_portfolio/static/media/j3.cd6406267581c8b523d9.png",
     "index.html": "/chinmay_portfolio/index.html",
-    "main.31c184c2.css.map": "/chinmay_portfolio/static/css/main.31c184c2.css.map",
-    "main.897feafc.js.map": "/chinmay_portfolio/static/js/main.897feafc.js.map"
+    "main.9807cfc7.css.map": "/chinmay_portfolio/static/css/main.9807cfc7.css.map",
+    "main.d3b7c87e.js.map": "/chinmay_portfolio/static/js/main.d3b7c87e.js.map"
   },
   "entrypoints": [
-    "static/css/main.31c184c2.css",
-    "static/js/main.897feafc.js"
+    "static/css/main.9807cfc7.css",
+    "static/js/main.d3b7c87e.js"
   ]
 }
